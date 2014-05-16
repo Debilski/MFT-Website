@@ -1,0 +1,14 @@
+// customize bootstrap variables here:
+@import "variables";
+@import "bootstrap";
+@import "code";
+
+::-moz-selection { background: #fe57a1; text-shadow: none; }
+::selection { background: #fe57a1; text-shadow: none; }
+
+#header { background: rgb(86, 61, 124); height: 3em; }
+
+#footer {
+	@extend .container;
+}
+
